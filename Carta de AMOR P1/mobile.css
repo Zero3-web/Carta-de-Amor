@@ -1,0 +1,71 @@
+/* Solo estilos móviles, extraídos de style.css */
+
+@media (max-width: 900px) {
+  .papel3d {
+    width: 98vw !important;
+    max-width: 99vw !important;
+    min-width: 260px;
+    max-height: 90vh !important;
+    padding: 2.2rem 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #cartaCanvas { 
+    width: 130vw !important; 
+    height: 100vw !important; 
+    max-width: 130vw !important;
+    max-height: 100vw !important;
+  }
+  .close-btn { 
+    top: 2.2rem; 
+    right: 2.5rem; 
+    width: 56px;
+    height: 56px;
+    font-size: 2.2rem;
+  }
+  .subtitle { font-size: 1.35rem; padding: 0.7rem 1.5rem; }
+  .download-btn { 
+    bottom: 2.2rem; 
+    right: 2.5rem; 
+    width: 56px;
+    height: 56px;
+  }
+  .download-msg { 
+    bottom: 7.5rem; 
+    right: 2.7rem; 
+    font-size: 1.25rem; 
+    padding: 0.7em 1.5em;
+  }
+  .firma { font-size: 1.35rem; left: 4vw; bottom: 1.5vh; }
+  .papel3d {
+    font-size: 1.7rem;
+    min-width: 220px;
+    min-height: 120px;
+    height: auto !important;
+    max-height: 90vh !important;
+    padding: 1.2rem 0.4rem;
+    width: 98vw !important;
+    max-width: 99vw !important;
+    border-width: 4px;
+  }
+  .papel3d span {
+    font-size: 1.3rem;
+  }
+  .download-btn { bottom: 1rem; right: 1rem; }
+  .download-msg { bottom: 4.5rem; right: 1.2rem; font-size: 1rem; }
+  .firma { font-size: 1.15rem; left: 2vw; bottom: 1vh; }
+  .loading-mama {
+    font-size: 3.2rem;
+    gap: 2.2rem;
+    padding: 0 1.5rem;
+  }
+  .loading-mama span {
+    font-size: 2.2rem;
+    min-width: 16ch;
+  }
+  #loadingHeart {
+    width: 96px !important;
+    height: 96px !important;
+  }
+}
