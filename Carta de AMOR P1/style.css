@@ -17,6 +17,7 @@ body {
   position: relative;
   background: none !important; /* El fondo lo maneja .bg-fade */
   transition: background 1.2s cubic-bezier(.77,0,.18,1), filter 0.6s cubic-bezier(.77,0,.18,1);
+  font-size: 17px;
 }
 body::before {
   content: "";
@@ -164,6 +165,10 @@ body.bg-open {
   user-select: none;
   z-index: 30;
   letter-spacing: 1px;
+}
+.download-btn,
+.download-msg {
+  display: none !important;
 }
 .download-btn {
   position: absolute;
@@ -380,4 +385,19 @@ body.bg-open {
 @keyframes loadingMamaPulse {
   0% { color: #b5838d; text-shadow: 0 2px 16px #ffd70044; }
   100% { color: #e63946; text-shadow: 0 4px 32px #ffd70099; }
+}
+
+/* Ajustes de tamaño de fuente */
+.papel3d,
+.subtitle,
+.firma,
+.loading-mama,
+#papelMsg {
+  font-size: 1.06em;
+}
+
+button,
+.close-btn,
+.tooltip {
+  font-size: 1.06em;
 }
